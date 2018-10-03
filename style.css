@@ -1,0 +1,142 @@
+body {
+  background-image: url("images/background/palm.jpg");
+/*  background: linear-gradient(to right, #485563, #29323c);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
+*/font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 28px;
+  line-height: 1.6em;
+  color: #82b74b;
+}
+
+h1 {
+  font-family: 'Seaweed Script', cursive;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #BEBEBE;
+  text-align: start;
+}
+ .expe {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 5px;
+ }
+
+#description {
+  font-size:15px;
+  text-align: center;
+}
+
+table img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+p {
+  color:  white;
+  font-weight: 250;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+a {
+  color: #BEBEBE;
+  font-weight: 12px;
+  text-decoration: none;
+
+}
+
+.btn-red {
+  background-color: #b32400;
+  color: white;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  padding:10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-red:hover {
+  background-color: rgb(198, 20, 20);
+  text-decoration: none;
+  color: white;
+}
+
+.fab {
+  font-size: 18px;
+  padding:10px;
+}
+
+a:hover {
+  text-decoration: underline #263959;
+  color: #263959;
+}
+
+ul {
+  color:#3e4444;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.list-inline {
+  padding-left: 0;
+  display: inline-block;
+  padding: 20px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#img-circle img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  padding: 30px;
+  margin: 30px;
+  border-radius: 6px;
+  border: 2px solid ;
+  box-shadow: 2px 2px 3px grey;
+  background-color: #3e4444;
+/*  background-color: #E5BDC3;
+*//*  background-color: rgb(70 85 107);
+*/  text-align: center;
+  }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
