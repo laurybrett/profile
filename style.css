@@ -1,3 +1,17 @@
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #3e4444;
+
+}
+
+#page-content {
+    margin-left: 300px;
+}
+
 body {
   background-image: url("images/background/palm.jpg");
 /*  background: linear-gradient(to right, #485563, #29323c);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
